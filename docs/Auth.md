@@ -3,9 +3,11 @@
 
 Auth is handled using supabase.
 
-Current supportes auth providers
+Current supported auth providers
 
-- Google
+- [ ] Google
+- [ ] Email
+- [ ] Phone
 
 Login provider example:
 
@@ -17,3 +19,5 @@ const { error } = await supabase.auth.signInWithOAuth({
     },
 });
 ```
+
+See more at [auth docs](https://supabase.com/docs/guides/auth).
