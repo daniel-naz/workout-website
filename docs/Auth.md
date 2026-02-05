@@ -5,7 +5,7 @@ Auth is handled using supabase.
 
 Current supported auth providers
 
-- [ ] Google
+- [X] Google
 - [ ] Email
 - [ ] Phone
 
